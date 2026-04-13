@@ -65,3 +65,7 @@ str(Survey)
 column_summary <- colSums(Survey[,c(5:10, 12:13)],na.rm=TRUE)
 column_summary
 
+
+
+
+
