@@ -584,6 +584,9 @@ setnames(
   new='Participant'
 )
 
+setnames(students, old = c("Pstatus", "Medu", "Fedu"), 
+         new = c("parent_status", "mother_edu", "father_edu"))
+
 View(Trial)
 
 
